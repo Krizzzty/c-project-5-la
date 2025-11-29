@@ -1,0 +1,14 @@
+aim:Lexical analyzers are designed to recognize keywords, operators, identifiers such different types of tokens from given source code
+
+explanation: for that the input of the project will be a .c file and this project identifies the type of each of token in the code (where the token can be a letter, a word,or collection of words,symbols like that) and will be printed as output.Like:
+
+Token	Token Type
+sum 	Identifier
+=	Assignment operator
+3	Integer literal
++	Addition operator
+2	Integer literal
+; 	End of statement
+ 
+the input c file will be passed as CLA(command line argument)
+the project starts reading each character from the file and based on certain conditions it will be classified as a token with the type.
